@@ -1,0 +1,197 @@
+{
+  "courses": [
+    {
+      "code": "MAT101",
+      "name": "Cálculo I",
+      "credits": 4
+    },
+    {
+      "code": "MAT102",
+      "name": "Cálculo II",
+      "credits": 4
+    },
+    {
+      "code": "MAT201",
+      "name": "Cálculo III",
+      "credits": 4
+    },
+    {
+      "code": "FIS101",
+      "name": "Física I",
+      "credits": 3
+    },
+    {
+      "code": "FIS102",
+      "name": "Física II",
+      "credits": 3
+    },
+    {
+      "code": "PROG1",
+      "name": "Programación I",
+      "credits": 4
+    },
+    {
+      "code": "PROG2",
+      "name": "Programación II",
+      "credits": 4
+    },
+    {
+      "code": "EDA1",
+      "name": "Estructuras de Datos I",
+      "credits": 3
+    },
+    {
+      "code": "EDA2",
+      "name": "Estructuras de Datos II",
+      "credits": 4
+    },
+    {
+      "code": "BD1",
+      "name": "Bases de Datos I",
+      "credits": 3
+    },
+    {
+      "code": "BD2",
+      "name": "Bases de Datos II",
+      "credits": 3
+    },
+    {
+      "code": "SO",
+      "name": "Sistemas Operativos",
+      "credits": 4
+    },
+    {
+      "code": "REDES",
+      "name": "Redes de Computadores",
+      "credits": 3
+    },
+    {
+      "code": "ANL",
+      "name": "Análisis y Diseño de Algoritmos",
+      "credits": 3
+    },
+    {
+      "code": "LOGIC",
+      "name": "Lógica",
+      "credits": 3
+    },
+    {
+      "code": "PROB",
+      "name": "Probabilidad y Estadística",
+      "credits": 3
+    },
+    {
+      "code": "IA1",
+      "name": "Inteligencia Artificial I",
+      "credits": 3
+    },
+    {
+      "code": "INGSW1",
+      "name": "Ingeniería de Software I",
+      "credits": 3
+    },
+    {
+      "code": "INGSW2",
+      "name": "Ingeniería de Software II",
+      "credits": 3
+    },
+    {
+      "code": "SEGU",
+      "name": "Seguridad Informática",
+      "credits": 3
+    },
+    {
+      "code": "ARQ",
+      "name": "Arquitectura de Computadores",
+      "credits": 3
+    },
+    {
+      "code": "COMPIL",
+      "name": "Compiladores",
+      "credits": 3
+    }
+  ],
+  "prerequisites": [
+    [
+      "MAT101",
+      "MAT102"
+    ],
+    [
+      "MAT102",
+      "MAT201"
+    ],
+    [
+      "MAT101",
+      "FIS101"
+    ],
+    [
+      "FIS101",
+      "FIS102"
+    ],
+    [
+      "PROG1",
+      "PROG2"
+    ],
+    [
+      "PROG2",
+      "EDA1"
+    ],
+    [
+      "EDA1",
+      "EDA2"
+    ],
+    [
+      "EDA2",
+      "ANL"
+    ],
+    [
+      "PROG2",
+      "BD1"
+    ],
+    [
+      "BD1",
+      "BD2"
+    ],
+    [
+      "EDA1",
+      "SO"
+    ],
+    [
+      "PROG2",
+      "REDES"
+    ],
+    [
+      "EDA1",
+      "INGSW1"
+    ],
+    [
+      "INGSW1",
+      "INGSW2"
+    ],
+    [
+      "PROG2",
+      "IA1"
+    ],
+    [
+      "LOGIC",
+      "IA1"
+    ],
+    [
+      "PROB",
+      "IA1"
+    ],
+    [
+      "ARQ",
+      "COMPIL"
+    ],
+    [
+      "PROG2",
+      "COMPIL"
+    ]
+  ],
+  "passed": [
+    "MAT101",
+    "PROG1",
+    "LOGIC"
+  ]
+}
